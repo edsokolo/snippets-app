@@ -46,3 +46,19 @@ INFO:root:Constructing parser
 DEBUG:root:Constructing put subparser
 INFO:root:Constructing parser
 DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created using []')
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created using []')
+ERROR:root:FIXME: Unimplemented - put('snippet', 'name')
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created using []')
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created using []')
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - get('A sequence of things - created using []')
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created using []')
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - get('A sequence of things - created using []')
