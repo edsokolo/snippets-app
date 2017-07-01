@@ -36,6 +36,9 @@ def main():
     put_parser.add_argument("name", help="Name of the snippet")
     put_parser.add_argument("snippet", help="Snippet text")
 
+    get_parser = subparsers.add_parser("get", help="Retrieve a snippet")
+    get_parser.add_argument("name", help="Name of the snippet")
+
     arguments = parser.parse_args()
 
 if __name__ == "__main__":
