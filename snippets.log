@@ -62,3 +62,224 @@ ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things - created us
 INFO:root:Constructing parser
 DEBUG:root:Constructing put subparser
 ERROR:root:FIXME: Unimplemented - get('A sequence of things - created using []')
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'Test': 'This is a test snippet'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'Test': 'This is a test snippet'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Storing snippet 'Test2': 'This is a test2 snippet'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test1'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test12'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test12'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test1'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'Test'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'test'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword {'name': 'insert'}
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'name'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'inserta'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established.
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Getting a snippet from keyword 'insert'
+DEBUG:root:Snippet retrieved successfully.
