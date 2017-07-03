@@ -17,15 +17,15 @@ def put(name, snippet):
     Returns the name and the snippet
     """
     logging.info("Storing snippet {!r}: {!r}".format(name, snippet))
-    cursor = connection.cursor()
-    command = "insert into snippets values (%s, %s)"
-    try:
-        cursor.execute(command, (name, snippet))
-    except psycopg2.IntegrityError as e:
-        connection.rollback()
-        command = "update snippets set message=%s where keyword=%s"
+    with connection, connection.cursor() as cursor:
+        command = "insert into snippets values (%s, %s)"
+        try:
+            cursor.execute(command, (name, snippet))
+        except psycopg2.IntegrityError as e:
+            command = "update snippets set message=%s where keyword=%s"
+    with connection, connection.cursor() as cursor:
         cursor.execute(command, (snippet,name))
-    connection.commit()
+
     logging.debug("Snippet stored successfully.")
     return name, snippet
 
@@ -36,11 +36,12 @@ def get(name):
     Returns the snippet.
     """
     logging.info("Getting a snippet from keyword {!r}".format(name))
-    cursor = connection.cursor()
-    command = "select message from snippets where keyword = %s"
-    cursor.execute(command, (name,))
-    row = cursor.fetchone()
-    connection.commit()
+
+    with connection, connection.cursor() as cursor:
+        command = "select message from snippets where keyword = %s"
+        cursor.execute(command, (name,))
+        row = cursor.fetchone()
+
     logging.debug("Snippet retrieved successfully.")
     if not row:
         return "404: Snippet Not Found"
