@@ -47,6 +47,22 @@ def get(name):
         return "404: Snippet Not Found"
     return row[0]
 
+def catalog():
+    """List all available keywords"""
+    logging.info("Listing all keywords")
+    keywords = []
+
+    with connection, connection.cursor() as cursor:
+        command = "Select keyword from snippets order by keyword"
+        cursor.execute(command)
+        rows = cursor.fetchall()
+    for row in rows:
+        keywords.append(row[0])
+
+    logging.debug("Keywords listed successfully.")
+    return keywords
+
+
 def main():
     """main functions"""
     logging.info("Constructing parser")
@@ -63,8 +79,16 @@ def main():
     get_parser = subparsers.add_parser("get", help="Retrieve a snippet")
     get_parser.add_argument("name", help="Name of the snippet")
 
+    catalog_parser = subparsers.add_parser("catalog", help="List all keywords")
+#    catalog_parser.add_argument("number", type="int", help="Number of keywords to return")
+#    catalog_parser.add_argument("-s","--sort", help="Sort keyword list", action = "store_true")
+#    group= parser.add_mutually_exclusive_group()
+#    group.add_argument("-a","--asc", type=str, help="Sort in ascending order", action="store_true")
+#    group.add_argument("-d", "--desc", type=str, help="Sort in descending order", action="store_true")
+
+
     arguments = parser.parse_args()
-    #Conver parsed arguments from Namespace to dictionary
+    #Convert parsed arguments from Namespace to dictionary
     arguments = vars(arguments)
     command = arguments.pop("command")
 
@@ -74,7 +98,11 @@ def main():
     elif command == "get":
         snippet = get(**arguments)
         print("Retrieved snippet: {!r}".format(snippet))
-
+    elif command =="catalog":
+        keywords = catalog()
+        print("Avaliable keywords:")
+        for keyword in keywords:
+            print(keyword)
 if __name__ == "__main__":
     main()
 
